@@ -16,9 +16,7 @@ def main():
                 return
         pygame.Surface.fill(screen, (0,0,0))
         pygame.display.flip()
-        time.tick(60)
-        dt = time.get_time()
-        dt /= 1000
+        dt = time.tick(60) / 1000
     
 
 if __name__ == "__main__":
